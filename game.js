@@ -27,7 +27,7 @@ greaterBtn.addEventListener("click",function greaterCheck(){
 });
 
 lesserBtn.addEventListener("click",function lesserCheck(){
-    if (number1>number2){
+    if (number1<number2){
         score++;
         resetTime(timerId);
     } else {
@@ -40,7 +40,7 @@ lesserBtn.addEventListener("click",function lesserCheck(){
 });
 
 equalBtn.addEventListener("click",function equalCheck(){
-    if (number1>number2){
+    if (number1==number2){
         score++;
         resetTime(timerId);
     } else {
